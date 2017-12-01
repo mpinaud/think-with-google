@@ -1,12 +1,18 @@
 .nav-wrapper.white {
-    padding-left: 28px;
+  padding-left: 28px;
 }
 
 .google-logo {
-    width: 77px;
-    position: relative;
-    top: 10px;
-    left:2px;
+  width: 77px;
+  position: relative;
+  top: 10px;
+  left:2px;
+}
+
+.languages {
+  position: absolute;
+  top: -0.5px;
+  left: 209px;
 }
 
 .collapse-button {
@@ -15,4 +21,16 @@
 
 .logo {
   font-size: 22.5px;
+}
+
+.footer {
+  background-color: #FFF;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.no-thanks:hover {
+  color: blue;
 }

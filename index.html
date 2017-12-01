@@ -15,6 +15,11 @@
       <header>
         <!--DROP-DOWN-NAVBAR-ITEMS-->
         <ul id="dropdown1" class="dropdown-content blue-grey lighten-5">
+          <li><a class="black-text condensed" href="#!">English Canada</a></li>
+          <li><a class="black-text condensed" href="#!">Espanol Espana</a></li>
+          <li><a class="black-text condensed" href="#!">Italiano Italia</a></li>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content blue-grey lighten-5">
           <li><a class="black-text condensed" href="#!">Data Measurement</a></li>
           <li><a class="black-text condensed" href="#!">Experience & Design</a></li>
           <li><a class="black-text condensed" href="#!">Omnichannel</a></li>
@@ -23,22 +28,25 @@
           <li><a class="black-text condensed" href="#!">Reports</a></li>
           <li><a class="black-text condensed" href="#!">Tools</a></li>
         </ul>
-        <ul id="dropdown2" class="dropdown-content blue-grey lighten-5">
+        <ul id="dropdown3" class="dropdown-content blue-grey lighten-5">
           <li><a class="black-text condensed" href="#!">Emerging Technology</a></li>
           <li><a class="black-text condensed" href="#!">Search</a></li>
           <li><a class="black-text condensed" href="#!">Video</a></li>
-        </ul
+        </ul>
 
-        <!--TOP-NAVBAR-->
+        <!--TOP NAVBAR-->
         <nav class="z-depth-0">
-          <div class="nav-wrapper white z-depth-0">
+          <div class="nav-wrapper white">
             <a href="#!" class="logo grey-text">think <span class="grey-text text-lighten-1">with</span></a>
             <img class="google-logo" src="img/logo.png" alt="Google Logo">
             <a href="#" data-activates="mobile-demo" class="button-collapse collapse-button"><i class="material-icons">menu</i></a>
+            <ul class="languages hide-on-med-and-down">
+              <li><a class="dropdown-button black-text data-hover='true'" href="#!" data-activates="dropdown1">English - United Stated<i class="material-icons right black-text">arrow_drop_down</i></a></li>
+            </ul>
             <ul class="right hide-on-med-and-down">
               <li><a href="#" class="black-text condensed">Consumer Insights</a></li>
-              <li><a class="dropdown-button black-text data-hover='true'" href="#!" data-activates="dropdown1">Marketing Resources<i class="material-icons right black-text">arrow_drop_down</i></a></li>
-              <li><a class="dropdown-button black-text data-hover='true'" href="#!" data-activates="dropdown2">Advertising Channels<i class="material-icons right black-text">arrow_drop_down</i></a></li>
+              <li><a class="dropdown-button black-text data-hover='true'" href="#!" data-activates="dropdown2">Marketing Resources<i class="material-icons right black-text">arrow_drop_down</i></a></li>
+              <li><a class="dropdown-button black-text data-hover='true'" href="#!" data-activates="dropdown3">Advertising Channels<i class="material-icons right black-text">arrow_drop_down</i></a></li>
               <li><a href="#"><i class="black-text material-icons">search</i></a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
@@ -64,17 +72,23 @@
         </div>
 
       </main>
+      <!--BOTTOM NAVBAR-->
       <footer>
-        <div class="navbar-fixed">
-          <nav>
-            <div class="nav-wrapper">
-              <a href="#!" class="brand-logo">Logo</a>
-              <ul class="right">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-              </ul>
+        <div class="footer z-depth-3">
+          <div class="row">
+            <div class="col s12">
+              <p class="black-text regular">Get our Newsletter</p>
             </div>
-          </nav>
+            <div class="col s12">
+              <h6 class="black-text">Stay on top of the latest and greatest</h6>
+            </div>
+            <div class="col s12">
+              <a class="btn blue darken-3 text-thin">Subscribe</a>
+            </div>
+            <div class="col s12">
+              <a class="no-thanks blue-text text-darken-3 thin" href="#">No Thanks</a>
+            </div>
+          </div>
         </div>
       </footer>
     </body>
