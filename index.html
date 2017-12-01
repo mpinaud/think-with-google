@@ -8,17 +8,74 @@
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script type="text/javascript" src="js/scripts.js"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="shortcut icon" href="google-logo.ico">
       <title>Think with Google</title>
     </head>
     <body>
       <header>
+        <!--DROP-DOWN-NAVBAR-ITEMS-->
+        <ul id="dropdown1" class="dropdown-content blue-grey lighten-5">
+          <li><a class="black-text condensed" href="#!">Data Measurement</a></li>
+          <li><a class="black-text condensed" href="#!">Experience & Design</a></li>
+          <li><a class="black-text condensed" href="#!">Omnichannel</a></li>
+          <li><a class="black-text condensed" href="#!">Programmatic Advertising</a></li>
+          <li class="divider"></li>
+          <li><a class="black-text condensed" href="#!">Reports</a></li>
+          <li><a class="black-text condensed" href="#!">Tools</a></li>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content blue-grey lighten-5">
+          <li><a class="black-text condensed" href="#!">Emerging Technology</a></li>
+          <li><a class="black-text condensed" href="#!">Search</a></li>
+          <li><a class="black-text condensed" href="#!">Video</a></li>
+        </ul
 
+        <!--TOP-NAVBAR-->
+        <nav>
+          <div class="nav-wrapper white">
+            <a href="#!" class="logo grey-text">think <span class="grey-text text-lighten-1">with</span></a>
+            <img class="google-logo" src="img/logo.png" alt="Google Logo">
+            <a href="#" data-activates="mobile-demo" class="button-collapse collapse-button"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#" class="black-text condensed">Consumer Insights</a></li>
+              <li><a class="dropdown-button black-text data-hover='true'" href="#!" data-activates="dropdown1">Marketing Resources<i class="material-icons right black-text">arrow_drop_down</i></a></li>
+              <li><a class="dropdown-button black-text data-hover='true'" href="#!" data-activates="dropdown2">Advertising Channels<i class="material-icons right black-text">arrow_drop_down</i></a></li>
+              <li><a href="#"><i class="black-text material-icons">search</i></a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+              <li><a href="#" class="black-text condensed">Consumer Insights</a></li>
+              <li><a href="#" class="black-text condensed">Marketing Resources</a></li>
+              <li><a href="#" class="black-text condensed">Advertising Channels</a></li>
+            </ul>
+          </div>
+        </nav>
       </header>
       <main>
+        <div class="headline">
+          <div class="insight">
+            <h1 class="thin">Insights you want. Data you need.</h1>
+            <h4 class="thin hide-on-med-and-down">Stay on top of the latest and greatest</h4>
+            <a class="btn-large blue darken-3 text-thin hide-on-med-and-down">Subscribe</a>
+          </div>
+          <img class="hide-on-med-and-down" src="img/mobile-graph.jpg" alt="Mobile phone with graph">
+          <div class="consumer-insight-link hide-on-med-and-down">
+            <a href="#">Over the past two years, searches for "best" in "low-consideration" categories have seen rapid growth. Learn more about this shift</a>
+            <a class="btn-floating waves-effect waves-light blue"><i class="material-icons">add</i></a>
+          </div>
+        </div>
 
       </main>
       <footer>
-
+        <div class="navbar-fixed">
+          <nav>
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo">Logo</a>
+              <ul class="right">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </footer>
     </body>
   </html>
