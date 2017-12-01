@@ -1,5 +1,5 @@
 .nav-wrapper.white {
-  padding-left: 28px;
+  padding: 9px 20px 0 12px;
 }
 
 .google-logo {
@@ -11,8 +11,8 @@
 
 .languages {
   position: absolute;
-  top: -0.5px;
-  left: 209px;
+  top: 10.4px;
+  left: 181.2px;
 }
 
 .collapse-button {
@@ -28,9 +28,53 @@
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: auto;
+  padding: 8px 0 8px 33px;
   z-index: 2;
 }
 
+.footer-content i {
+  font-size: 18px;
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+
+.footer-content h6 {
+  display: block;
+}
+
+.btm-nav-button {
+  background-color: #1564c1;
+  border: none;
+  color: white;
+  padding: 3.8px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14.8px;
+  margin: 0 22px 0 0;
+}
+
+.btm-nav-button-2:hover {
+  background-color: #92cfff;
+}
+
+.no-thanks {
+  color: #2196F3;
+}
 .no-thanks:hover {
-  color: blue;
+  color: #92cfff;
+}
+
+/*TABLET*/
+@media screen and (min-width: 992px) {
+
+  .footer-content h6 {
+    display: inline;
+  }
+
+  .btm-nav-button {
+    margin: 0 22px;
+  }
 }
