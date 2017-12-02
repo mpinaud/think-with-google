@@ -44,6 +44,39 @@
   display: block;
 }
 
+.headline img {
+  width: 100vw;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.insight {
+    position: absolute;
+    top: 155px;
+    width: 25%;
+    height: auto;
+    left: 85px;
+    display: block;
+}
+
+.insight-button {
+  margin-top:8px;
+}
+
+.consumer-insight-link {
+  display: block;
+  position: absolute;
+  top: 339px;
+  right: 37px;
+  max-width: 19%;
+}
+
 .btm-nav-button {
   background-color: #1564c1;
   border: none;
@@ -56,7 +89,7 @@
   margin: 0 22px 0 0;
 }
 
-.btm-nav-button-2:hover {
+.btm-nav-button:hover {
   background-color: #92cfff;
 }
 
@@ -67,8 +100,12 @@
   color: #92cfff;
 }
 
+
+
+
 /*TABLET*/
 @media screen and (min-width: 992px) {
+
 
   .footer-content h6 {
     display: inline;
