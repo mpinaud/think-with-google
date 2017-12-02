@@ -1,18 +1,18 @@
 .nav-wrapper.white {
-  padding: 9px 20px 0 12px;
+  padding: 9px 20px 0 25px;
 }
 
 .google-logo {
   width: 77px;
   position: relative;
-  top: 10px;
+  top: 9px;
   left:2px;
 }
 
 .languages {
   position: absolute;
-  top: 10.4px;
-  left: 181.2px;
+  top: 11.4px;
+  left: 232.2px;
 }
 
 .collapse-button {
@@ -44,37 +44,66 @@
   display: block;
 }
 
-.headline img {
-  width: 100vw;
+.headline {
+  background-image: url("../img/mobile-graph.jpg");
+  background-size: cover;
+  z-index: 100;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-position: 50% 50% 9
+  min-height: 472px;
 }
 
-h1 {
+.insight h1 {
   font-size: 38px;
+  margin-bottom: 33px;
 }
 
-h4 {
+.insight h4 {
   font-size: 18px;
 }
 
 .insight {
-    position: absolute;
-    top: 155px;
-    width: 25%;
-    height: auto;
-    left: 85px;
-    display: block;
+  position: absolute;
+  top: 101px;
+  width: 25%;
+  height: auto;
+  left: 147px;
+  display: block;
 }
 
 .insight-button {
-  margin-top:8px;
+  margin-top: 9px;
 }
 
 .consumer-insight-link {
   display: block;
   position: absolute;
-  top: 339px;
-  right: 37px;
-  max-width: 19%;
+  top: 361.1px;
+  right: 0;
+  margin-right: 23px;
+  max-width: 268.4px;
+  background-color: white;
+  font-size: 13px;
+  text-align: justify;
+}
+
+.consumer-insight-link:hover {
+  cursor: pointer;
+}
+
+.consumer-insight-link i {
+  background-color: #1564c1;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14.8px;
+  margin-left: 16px;
 }
 
 .btm-nav-button {
@@ -99,9 +128,6 @@ h4 {
 .no-thanks:hover {
   color: #92cfff;
 }
-
-
-
 
 /*TABLET*/
 @media screen and (min-width: 992px) {
