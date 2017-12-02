@@ -47,11 +47,11 @@
 .headline {
   background-image: url("../img/mobile-graph.jpg");
   background-size: cover;
-  z-index: 100;
+  z-index: 0;
   vertical-align: middle;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-position: 50% 50% 9
+  background-position: 50% 50% 9;
   min-height: 472px;
 }
 
@@ -129,9 +129,19 @@
   color: #92cfff;
 }
 
+@media screen and (max-width: 993px) {
+  .headline {
+    background-image: url();
+    z-index: 100;
+  }
+}
 /*TABLET*/
 @media screen and (min-width: 992px) {
 
+  /*.headline {
+    background-image: url();
+    z-index: 0;
+  }*/
 
   .footer-content h6 {
     display: inline;
