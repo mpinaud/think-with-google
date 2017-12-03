@@ -61,6 +61,7 @@
 
 .insight-button {
   margin-top: 9px;
+  padding: 0 20px;
 }
 
 .consumer-insight-link {
@@ -93,31 +94,116 @@
 }
 
 /*TRENDS*/
-
 .trends-top, .trends-bottom{
   display: inline-block;
-  margin: 16px;
+  margin: 0px;
   margin-bottom: 0;
 }
 
 .trends {
   background: #f5f5f5;
+  padding: 20px;
+}
+
+.trends img {
+  filter: brightness(93%);
 }
 
 .trends h3 {
   margin: 0;
-  padding: 62px 25px 15px;
+  padding: 62px 8px 15px;
   font-size: 31px;
+}
+
+.trends-top h6, .trends-bottom h6 {
+  font-size: 17px;
+  width: 79%;
+}
+
+.trends-top h6:last-child, .trends-bottom h6:last-child {
+  font-size: 13px;
+  margin-top: 68px;
+}
+
+h2 {
+  font-size: 25px;
 }
 
 /*DEEPER DIVE*/
 .deeper-dive {
   background-color: #fafafa;
+  padding: 20px;
+}
+
+.deeper-dive h3 {
+  margin: 0;
+  padding: 62px 0 15px;
+  font-size: 31px;
+}
+
+.deeper-dive a{
+  display: block;
+  line-height: 38px;
+}
+
+.col.l4.dive {
+  padding: 0;
 }
 
 /*TOOLS*/
 .tools {
   background-color: #fafafa;
+}
+
+.tools h3 {
+  margin: 0;
+  padding: 62px 20px 15px;
+  font-size: 31px;
+}
+
+.tool-button-div {
+  text-align: center;
+}
+
+.tools-button {
+  margin-top: 22px;
+  margin-bottom: 67px;
+  padding: 0 20px;
+}
+
+/*SUBSCRIBE*/
+.subscribe {
+  background-color: #3367d6;
+  color: white;
+  padding: 20px;
+}
+
+.subscribe-left {
+  display: block;
+  max-width: 369px;
+  margin: 60px 0 0 115px;
+}
+
+.subscribe-left h1 {
+  font-size: 38px;
+}
+
+.subscribe-button {
+  margin-top: 22px;
+  margin-bottom: 67px;
+  padding: 0 20px;
+}
+
+.lower-main {
+  background-color: #3367d6;
+  height: 120px;
+  border-top: solid white 1px;
+  border-top: solid 1px;
+}
+
+.lower-main a {
+  color: white;
+  margin-right: 20px;
 }
 
 /*BOTTOM NAVBAR*/
@@ -142,7 +228,6 @@
   display: block;
 }
 
-
 .btm-nav-button {
   background-color: #1564c1;
   border: none;
@@ -166,36 +251,6 @@
   color: #92cfff;
 }
 
-.subscribe {
-  background-color: #3367d6;
-  color: white;
-  padding: 20px;
-}
-
-.subscribe-left {
-  display: block;
-  max-width: 369px;
-  margin: 60px 0 0 115px;
-}
-
-.subscribe-left h1 {
-  font-size: 38px;
-}
-
-.lower-main {
-  background-color: #3367d6;
-  height: 120px;
-  /* padding-left: 30px; */
-  px; */
-  border-top: solid white 1px;
-  border-top: solid 1px;
-}
-
-.lower-main a {
-  color: white;
-  margin-right: 20px;
-}
-
 @media screen and (max-width: 993px) {
   .headline {
     background-image: url();
@@ -204,11 +259,6 @@
 }
 /*TABLET*/
 @media screen and (min-width: 992px) {
-
-  /*.headline {
-    background-image: url();
-    z-index: 0;
-  }*/
 
   .footer-content h6 {
     display: inline;
