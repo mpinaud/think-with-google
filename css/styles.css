@@ -1,6 +1,12 @@
+/*TOP NAVBAR*/
 .nav-wrapper.white {
   padding: 9px 20px 0 25px;
 }
+
+.menu-right {
+  float: right;
+}
+
 
 .google-logo {
   width: 77px;
@@ -23,27 +29,7 @@
   font-size: 22.5px;
 }
 
-.footer {
-  background-color: #FFF;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-  padding: 8px 0 8px 33px;
-  z-index: 2;
-}
-
-.footer-content i {
-  font-size: 18px;
-  position: relative;
-  top: 3px;
-  right: 4px;
-}
-
-.footer-content h6 {
-  display: block;
-}
-
+/*HEADLINE*/
 .headline {
   background-image: url("../img/mobile-graph.jpg");
   background-size: cover;
@@ -106,6 +92,57 @@
   margin-left: 16px;
 }
 
+/*TRENDS*/
+
+.trends-top, .trends-bottom{
+  display: inline-block;
+  margin: 16px;
+  margin-bottom: 0;
+}
+
+.trends {
+  background: #f5f5f5;
+}
+
+.trends h3 {
+  margin: 0;
+  padding: 62px 25px 15px;
+  font-size: 31px;
+}
+
+/*DEEPER DIVE*/
+.deeper-dive {
+  background-color: #fafafa;
+}
+
+/*TOOLS*/
+.tools {
+  background-color: #fafafa;
+}
+
+/*BOTTOM NAVBAR*/
+.footer {
+  background-color: #FFF;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: 8px 0 8px 33px;
+  z-index: 2;
+}
+
+.footer-content i {
+  font-size: 18px;
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+
+.footer-content h6 {
+  display: block;
+}
+
+
 .btm-nav-button {
   background-color: #1564c1;
   border: none;
@@ -127,6 +164,36 @@
 }
 .no-thanks:hover {
   color: #92cfff;
+}
+
+.subscribe {
+  background-color: #3367d6;
+  color: white;
+  padding: 20px;
+}
+
+.subscribe-left {
+  display: block;
+  max-width: 369px;
+  margin: 60px 0 0 115px;
+}
+
+.subscribe-left h1 {
+  font-size: 38px;
+}
+
+.lower-main {
+  background-color: #3367d6;
+  height: 120px;
+  /* padding-left: 30px; */
+  px; */
+  border-top: solid white 1px;
+  border-top: solid 1px;
+}
+
+.lower-main a {
+  color: white;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 993px) {
