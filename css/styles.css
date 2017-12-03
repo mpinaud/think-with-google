@@ -96,6 +96,10 @@
 
 /*TRENDS*/
 
+.card:hover {
+  cursor: pointer;
+}
+
 .card-content {
     max-height: 100%;
 }
@@ -171,6 +175,12 @@ h2 {
   padding: 0;
 }
 
+.dive i {
+  position: relative;
+  top: 4px;
+  left: 10px;
+}
+
 /*TOOLS*/
 .tools {
   background-color: #fafafa;
@@ -200,11 +210,38 @@ h2 {
   padding: 0 20px;
 }
 
+.card-action.tools-card a:first-of-type{
+  color: blue !important;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.card-action.tools-card a:last-of-type {
+  color: grey !important;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-action.tools-card i {
+  background-color: #1564c1;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14.8px;
+  margin-left: 8px;
+  transform: rotate(-29deg);
+}
+
 /*SUBSCRIBE*/
 .subscribe {
   background-color: #3367d6;
   color: white;
   padding: 20px;
+  font-size: 14px;
 }
 
 .subscribe-left {
@@ -221,6 +258,24 @@ h2 {
   margin-top: 22px;
   margin-bottom: 67px;
   padding: 0 20px;
+  position: relative;
+  left: 11px;
+}
+
+.email-div {
+  width: 80%
+}
+
+.subscribe label {
+  color: white;
+}
+
+#email label {
+  font-size: 10px;
+}
+
+#email, #company {
+  border-bottom: 1px solid #FFF;
 }
 
 .lower-main {
