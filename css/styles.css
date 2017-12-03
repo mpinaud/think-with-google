@@ -1,3 +1,4 @@
+
 /*TOP NAVBAR*/
 .nav-wrapper.white {
   padding: 9px 20px 0 25px;
@@ -94,6 +95,11 @@
 }
 
 /*TRENDS*/
+
+.card-content {
+    max-height: 100%;
+}
+
 .trends-top, .trends-bottom{
   display: inline-block;
   margin: 0px;
@@ -125,11 +131,26 @@
   margin-top: 68px;
 }
 
+.trends-sm-card p {
+  padding: 0px 8px 15px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.trends-sm-card p:last-child {
+  text-align: center;
+  font-size: 14px;
+}
+
+.left img{
+  width: 50%;
+}
+
+/*DEEPER DIVE*/
 h2 {
   font-size: 25px;
 }
 
-/*DEEPER DIVE*/
 .deeper-dive {
   background-color: #fafafa;
   padding: 20px;
@@ -159,6 +180,14 @@ h2 {
   margin: 0;
   padding: 62px 20px 15px;
   font-size: 31px;
+}
+
+.tools h6 {
+  font-size: 18px;
+}
+
+.tools p {
+  font-size: 15px;
 }
 
 .tool-button-div {
@@ -197,13 +226,18 @@ h2 {
 .lower-main {
   background-color: #3367d6;
   height: 120px;
-  border-top: solid white 1px;
   border-top: solid 1px;
+  padding-top: 39px;
 }
 
 .lower-main a {
   color: white;
   margin-right: 20px;
+  margin-top: 10px;
+}
+
+.lower-main a:first-child {
+  font-size: 24px;
 }
 
 /*BOTTOM NAVBAR*/
