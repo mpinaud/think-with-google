@@ -343,7 +343,12 @@ h2 {
 @media screen and (max-width: 993px) {
   .headline {
     background-image: url();
-    z-index: 100;
+  }
+
+  .insight {
+    top: 100px;
+    left: 30px;
+    width: 400px;
   }
 }
 /*TABLET*/
