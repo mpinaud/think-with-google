@@ -13,7 +13,7 @@ This web page is an attempt to mimic the exact page layout as [Think With Google
 [View on web browser](https://mpinaud.github.io/think-with-google/)
 
 Clone or download repository:
-  1. Open [this page](https://github.com/think-with-goolge) in web browser.
+  1. Open [this page](https://github.com/think-with-google/) in web browser.
   2. Under the repository name, click Clone or download.
   3. In the Clone with HTTPs section, click to copy the clone URL for the repository.
   4. Open Terminal.
