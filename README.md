@@ -10,7 +10,7 @@ This web page is an attempt to mimic the exact page layout as [Think With Google
 
 ## Setup/Installation Requirements
 
-[View on web browser](https://mpinaud.github.io/tr-808/)
+[View on web browser](https://mpinaud.github.io/think-with-google/)
 
 Clone or download repository:
   1. Open [this page](https://github.com/think-with-goolge) in web browser.
