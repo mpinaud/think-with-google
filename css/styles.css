@@ -152,12 +152,12 @@
 
 /*DEEPER DIVE*/
 h2 {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .deeper-dive {
   background-color: #fafafa;
-  padding: 20px;
+  padding: 25px;
 }
 
 .deeper-dive h3 {
@@ -179,16 +179,18 @@ h2 {
   position: relative;
   top: 4px;
   left: 10px;
+  font-size: 21px;
 }
 
 /*TOOLS*/
 .tools {
   background-color: #fafafa;
+  padding: 20px;
 }
 
 .tools h3 {
   margin: 0;
-  padding: 62px 20px 15px;
+  padding: 62px 10px 15px;
   font-size: 31px;
 }
 
@@ -283,6 +285,7 @@ h2 {
   height: 120px;
   border-top: solid 1px;
   padding-top: 39px;
+  display: block;
 }
 
 .lower-main a {
@@ -346,12 +349,31 @@ h2 {
   }
 
   .insight {
-    top: 100px;
-    left: 30px;
-    width: 400px;
+  top: 100px;
+  left: 30px;
+  width: 400px;
+  }
+
+  .col.l4.dive.advertising-div {
+    float: right;
+    margin-right: 100px;
+    }
+
+  .col.l4.dive.consumer-div {
+    clear: both;
+  }
+
+  .subscribe-left {
+    margin-left: 10.1vw;
+  }
+
+  .lower-main {
+    margin-bottom: 34px;
+    height: 160px;
+    margin-left: 20px;
   }
 }
-/*TABLET*/
+
 @media screen and (min-width: 992px) {
 
   .footer-content h6 {
@@ -360,5 +382,22 @@ h2 {
 
   .btm-nav-button {
     margin: 0 22px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col.l4.dive.advertising-div {
+    clear: both;
+    float: left;
+  }
+
+  .subscribe {
+    padding: 0;
+  }
+
+  .lower-main {
+    margin-bottom: 94px;
+    height: 160px;
+    margin-left: 20px;
   }
 }

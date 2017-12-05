@@ -6,7 +6,7 @@
 
 ## Description
 
-This web page is an attempt to mimic the exact page layout as [Think With Google](https://www.thinkwithgoogle.com/) from 12/1/2017 as practice learning CSS style technics using responsive design practice. Materialize framework was also used.
+This web page is an attempt to mimic the exact page layout as [Think With Google](https://www.thinkwithgoogle.com/) from 12/1/2017 as a practice learning CSS style technics using responsive design. Materialize framework was also used.
 
 ## Setup/Installation Requirements
 
