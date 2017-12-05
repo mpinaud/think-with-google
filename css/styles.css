@@ -68,7 +68,7 @@
 .consumer-insight-link {
   display: block;
   position: absolute;
-  top: 361.1px;
+  top: 443.1px;
   right: 0;
   margin-right: 23px;
   max-width: 268.4px;
@@ -95,6 +95,39 @@
 }
 
 /*TRENDS*/
+
+.insight-show {
+  display: none;
+}
+
+.top-left {
+  width: 100%;
+  height: 401px;
+  background-image: url(../img/black-friday-min.width-1600.jpg);
+  background-size: cover;
+  background-position: 50%;
+  float: left;
+  margin-top: 8px;
+}
+
+.top-left h6, .bottom-right h6 {
+  margin: 258px 0 0 30px;
+  color: white;
+}
+
+.bottom-right {
+  width: 100%;
+  height: 399px;
+  background-image: url(../img/holiday.width-1600.jpg);
+  background-size: cover;
+  background-position: 50%;
+  float: left;
+  margin-top: 8px;
+}
+
+.trends-lg-card {
+  display: none;
+}
 
 .card:hover {
   cursor: pointer;
@@ -344,6 +377,10 @@ h2 {
 }
 
 @media screen and (max-width: 993px) {
+  header {
+    display: none;
+  }
+
   .headline {
     background-image: url();
   }
@@ -352,6 +389,22 @@ h2 {
   top: 100px;
   left: 30px;
   width: 400px;
+  }
+
+  .latest-hide {
+    display: none;
+  }
+
+  .insight-show {
+    display: block;
+  }
+
+  .top-left, .bottom-right{
+    display: none;
+  }
+
+  .trends-lg-card {
+    display: block;
   }
 
   .col.l4.dive.advertising-div {
