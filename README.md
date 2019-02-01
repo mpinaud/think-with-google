@@ -7,10 +7,14 @@ This web page is an attempt to mimic the exact page layout as [Think With Google
 ## View
 https://mpinaud.github.io/think-with-google/
 
+# What I Learned
+
+* Design a UI styling with CSS
+* How to create layout with CSS but without Flexbox or Grid
+
 ## Technologies
   * HTML
   * CSS
-  * jQuery
   * Materialize
   
 ## Setup
